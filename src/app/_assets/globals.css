@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 body {
   background: var(--tg-theme-secondary-bg-color, white);
   padding: 0;
