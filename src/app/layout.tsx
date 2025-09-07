@@ -9,6 +9,7 @@ import "@telegram-apps/telegram-ui/dist/styles.css";
 import "normalize.css/normalize.css";
 import "./_assets/globals.css";
 import AppBar from "@/components/AppBar/app-bar";
+import TopBar from "@/components/TopBar/top-bar";
 
 export const metadata: Metadata = {
   title: "Your Application Title Goes Here",
@@ -23,6 +24,7 @@ export default async function RootLayout({ children }: PropsWithChildren) {
       <body suppressHydrationWarning>
         <I18nProvider>
           <Root>
+            <TopBar />
             {children}
             <AppBar />
           </Root>

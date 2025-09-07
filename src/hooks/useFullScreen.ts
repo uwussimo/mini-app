@@ -27,7 +27,7 @@ export const useFullScreen = () => {
     if (lp.tgWebAppPlatform === "ios" || lp.tgWebAppPlatform === "android") {
       enterFullscreen();
     }
-  }, [isFullscreen]);
+  }, [isFullscreen, lp.tgWebAppPlatform]);
 
   return isFullscreen;
 };
