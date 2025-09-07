@@ -8,21 +8,31 @@ const TopBar = () => {
 
   return lp.tgWebAppPlatform === "tdesktop" ||
     lp.tgWebAppPlatform === "macos" ? null : (
-    <div
-      style={{
-        height: "64px",
-        width: "100%",
-        backgroundColor: "var(--tg-theme-bg-color)",
-        display: "flex",
-        alignItems: "center",
-        justifyContent: "center",
-        padding: "10px",
-        borderBottom: "1px solid var(--tg-theme-section-separator-color)",
-        marginBottom: "10px",
-      }}
-    >
-      <Text>Promo Bor Bot</Text>
-    </div>
+    <>
+      {lp.tgWebAppPlatform === "ios" && (
+        <div
+          style={{
+            height: "50px",
+            width: "100%",
+            backgroundColor: "var(--tg-theme-bg-color)",
+          }}
+        ></div>
+      )}
+      <div
+        style={{
+          width: "100%",
+          backgroundColor: "var(--tg-theme-bg-color)",
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          padding: "12px 10px",
+          borderBottom: "1px solid var(--tg-theme-section-separator-color)",
+          marginBottom: "10px",
+        }}
+      >
+        <Text>Promo Bor Bot</Text>
+      </div>
+    </>
   );
 };
 
