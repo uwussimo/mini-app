@@ -21,7 +21,10 @@ const TopBar = () => {
       <div
         style={{
           width: "100%",
-          backgroundColor: "var(--tg-theme-bg-color)",
+          backgroundColor: "var(--tg-theme-button-color)",
+          color: "var(--tg-theme-button-text-color)",
+          fontSize: "16px",
+          fontWeight: "bold",
           display: "flex",
           alignItems: "center",
           justifyContent: "center",
@@ -29,7 +32,7 @@ const TopBar = () => {
           marginBottom: "10px",
         }}
       >
-        <Text>Promo Bor Bot</Text>
+        Promo Bor Bot
       </div>
     </>
   );
