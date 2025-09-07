@@ -106,7 +106,7 @@ const BrandPage = ({ params }: PageProps) => {
             />
           }
         >
-          <Text>Promo kod ko'chirildi</Text>
+          <Text>Promo kod ko&apos;chirildi</Text>
         </Snackbar>
       )}
     </Page>
@@ -127,7 +127,7 @@ const AccordionPromoCode = ({ promo_code }: { promo_code: PromoCode }) => {
 
   return (
     <Accordion expanded={expanded} onChange={() => setExpanded(!expanded)}>
-      <AccordionSummary>Ko'proq ma'lumot</AccordionSummary>
+      <AccordionSummary>Ko&apos;proq ma&apos;lumot</AccordionSummary>
       <AccordionContent>
         <div
           style={{

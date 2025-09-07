@@ -34,6 +34,7 @@ export default function Home() {
               <Link href={`/brand/${brand.id}`}>
                 {" "}
                 <Cell
+                  key={brand.id}
                   before={
                     <Image
                       src={brand.logo}
