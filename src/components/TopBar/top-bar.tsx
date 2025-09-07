@@ -14,7 +14,7 @@ const TopBar = () => {
           style={{
             height: "50px",
             width: "100%",
-            backgroundColor: "var(--tg-theme-bg-color)",
+            backgroundColor: "var(--tg-theme-button-color)",
           }}
         ></div>
       )}
@@ -22,9 +22,6 @@ const TopBar = () => {
         style={{
           width: "100%",
           backgroundColor: "var(--tg-theme-button-color)",
-          color: "var(--tg-theme-button-text-color)",
-          fontSize: "16px",
-          fontWeight: "bold",
           display: "flex",
           alignItems: "center",
           justifyContent: "center",
@@ -32,7 +29,15 @@ const TopBar = () => {
           marginBottom: "10px",
         }}
       >
-        Promo Bor Bot
+        <Text
+          style={{
+            color: "var(--tg-theme-button-text-color)",
+            fontSize: "16px",
+            fontWeight: "bold",
+          }}
+        >
+          Promo Bor Bot
+        </Text>
       </div>
     </>
   );
