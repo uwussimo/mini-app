@@ -1,0 +1,21 @@
+{
+  "brands": [
+    {
+      "id": "1",
+      "name": "Yandex Go",
+      "logo": "/ton.svg",
+      "logo_bg": "#007AFF",
+      "description": "Yandex Go - bu Yandex kompaniyasining yetkazib berish xizmati. Siz Yandex Go orqali sevimli resoran va kafelaringizdan ovqat buyurtma qilishingiz mumkin.",
+      "promo_codes": [
+        {
+          "code": "YANDEXGO",
+          "discount_desc": "Birinchi 3 ta buyurtnadab 90ming so'mlik chegirma. Har bir 80ming so'mdan oshgan buyurtmalarga 30ming so'mlik chegirma beriladi.",
+          "discount_percentage": "40%",
+          "discount_amount": "-90 000 so'm",
+          "expires_at": "2025-09-18",
+          "link": "https://www.yandex.com"
+        }
+      ]
+    }
+  ]
+}
