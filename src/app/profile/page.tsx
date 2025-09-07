@@ -27,6 +27,7 @@ const Profile = () => {
               size={48}
               src={user?.photo_url || ""}
               style={{ backgroundColor: "var(--tg-theme-button-color)" }}
+              alt={user?.first_name + " " + user?.last_name}
             />
           }
           description={"@" + user?.username}

@@ -47,6 +47,7 @@ const BrandPage = ({ params }: PageProps) => {
                 size={48}
                 src={brand?.logo}
                 style={{ backgroundColor: "var(--tg-theme-button-color)" }}
+                alt={brand?.name}
               />
             }
             description={brand?.description}
