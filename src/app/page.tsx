@@ -31,10 +31,8 @@ export default function Home() {
         {brands.length > 0 ? (
           <Section header="Brendlar">
             {brands.map((brand) => (
-              <Link href={`/brand/${brand.id}`}>
-                {" "}
+              <Link href={`/brand/${brand.id}`} key={brand.id}>
                 <Cell
-                  key={brand.id}
                   before={
                     <Image
                       src={brand.logo}
