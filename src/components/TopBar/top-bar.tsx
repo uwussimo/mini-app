@@ -25,7 +25,8 @@ const TopBar = () => {
           display: "flex",
           alignItems: "center",
           justifyContent: "center",
-          padding: "12px 10px",
+          padding:
+            lp.tgWebAppPlatform === "ios" ? "10px 10px 24px 10px" : "12px 10px",
           marginBottom: "10px",
         }}
       >
